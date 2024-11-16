@@ -3,6 +3,15 @@ alfabet = ('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 
 # Ontcijfer de geheime boodschap en print het volledige bericht
 bericht = ""
+kiesNum = -1
+kiesNumT = -1
+def ontrafelPerCijfer():
+    for kiesNumT in geheime_boodschap :
+        print(alfabet[kiesNumT])
+ontrafelPerCijfer()
+
+
+
 
 # Schrijf jouw code hier!
 
